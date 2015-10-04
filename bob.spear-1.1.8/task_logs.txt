@@ -1,0 +1,89 @@
+No handlers could be found for logger "bob.c++"
+executing gmm 
+
+list file is ++++++++++++/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg/xbob/db/voxforge/lists/norm/train_world.lst
+list file is ++++++++++++/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg/xbob/db/voxforge/lists/dev/for_models.lst
+list file is ++++++++++++/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg/xbob/db/voxforge/lists/dev/for_probes.lst
+list file is ++++++++++++/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg/xbob/db/voxforge/lists/eval/for_models.lst
+list file is ++++++++++++/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg/xbob/db/voxforge/lists/eval/for_probes.lst
+preprocess 127 wave from directory /home/dingz/dataset/audiofiles/ to directory /home/dingz/exp5/tmp/ubm_gmm/preprocessed
+Input wave file: /home/dingz/dataset/audiofiles/0/feejohn_1431446990923.wav
+After Energy-based VAD there are 92 frames remaining over 310
+Input wave file: /home/dingz/dataset/audiofiles/19/1431446948388.wav
+After Energy-based VAD there are 167 frames remaining over 338
+extract 127 features from wav directory /home/dingz/dataset/audiofiles/ to directory /home/dingz/exp5/tmp/ubm_gmm/features
+Input wave file : /home/dingz/dataset/audiofiles/0/feejohn_1431446990923.wav
+Warning: something's wrong with the features: /home/dingz/exp5/tmp/ubm_gmm/features/0/feejohn_1431446990923.hdf5
+Input wave file : /home/dingz/dataset/audiofiles/19/1431446948388.wav
+Projector '/home/dingz/exp5/tmp/ubm_gmm/Projector.hdf5' already exists.
+project 127 features from directory /home/dingz/exp5/tmp/ubm_gmm/features to directory /home/dingz/exp5/tmp/ubm_gmm/projected_ubm using UBM Projector
+enrol models of group dev
+enrol models of group eval
+bob.c++@2015-05-12 12:05:59,855 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:05:59,902 -- INFO: # Iteration 1: -90.7689 -> -79.0744
+bob.c++@2015-05-12 12:05:59,902 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:00,093 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:00,156 -- INFO: # Iteration 1: -90.7709 -> -78.8362
+bob.c++@2015-05-12 12:06:00,156 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:00,346 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:00,463 -- INFO: # Iteration 1: -91.4701 -> -80.949
+bob.c++@2015-05-12 12:06:00,463 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:00,652 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:00,779 -- INFO: # Iteration 1: -89.8151 -> -78.9634
+bob.c++@2015-05-12 12:06:00,779 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:00,968 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:01,082 -- INFO: # Iteration 1: -92.1953 -> -80.2712
+bob.c++@2015-05-12 12:06:01,083 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:01,274 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:01,400 -- INFO: # Iteration 1: -88.6776 -> -75.7079
+bob.c++@2015-05-12 12:06:01,401 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:01,592 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:01,923 -- INFO: # Iteration 1: -87.0245 -> -78.2754
+bob.c++@2015-05-12 12:06:01,923 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:02,114 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:02,290 -- INFO: # Iteration 1: -91.5447 -> -82.4714
+bob.c++@2015-05-12 12:06:02,290 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:02,481 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:02,677 -- INFO: # Iteration 1: -89.291 -> -76.9451
+bob.c++@2015-05-12 12:06:02,677 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:02,867 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:02,950 -- INFO: # Iteration 1: -89.9894 -> -73.8939
+bob.c++@2015-05-12 12:06:02,951 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:03,141 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:03,228 -- INFO: # Iteration 1: -91.1373 -> -76.3904
+bob.c++@2015-05-12 12:06:03,228 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:03,419 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:03,474 -- INFO: # Iteration 1: -90.2761 -> -79.33
+bob.c++@2015-05-12 12:06:03,475 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:03,665 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:03,674 -- INFO: # Iteration 1: -90.9843 -> -77.818
+bob.c++@2015-05-12 12:06:03,675 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:03,865 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:03,953 -- INFO: # Iteration 1: -90.4037 -> -79.3707
+bob.c++@2015-05-12 12:06:03,953 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:04,143 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:04,202 -- INFO: # Iteration 1: -89.7598 -> -78.6002
+bob.c++@2015-05-12 12:06:04,202 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:04,392 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:04,446 -- INFO: # Iteration 1: -91.5881 -> -80.7759
+bob.c++@2015-05-12 12:06:04,446 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:04,636 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:04,790 -- INFO: # Iteration 1: -88.155 -> -76.399
+bob.c++@2015-05-12 12:06:04,790 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:04,980 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:05,023 -- INFO: # Iteration 1: -90.4303 -> -77.5287
+bob.c++@2015-05-12 12:06:05,023 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:05,220 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:06,514 -- INFO: # Iteration 1: -86.7401 -> -80.3721
+bob.c++@2015-05-12 12:06:06,514 -- INFO: # EM terminated: maximum number of iterations reached.
+bob.c++@2015-05-12 12:06:06,709 -- INFO: # EMTrainer:
+bob.c++@2015-05-12 12:06:07,578 -- INFO: # Iteration 1: -87.2669 -> -79.371
+bob.c++@2015-05-12 12:06:07,578 -- INFO: # EM terminated: maximum number of iterations reached.
+----- computing scores for group 'dev' -----
+computing A scores
+Score file '/home/dingz/exp5/output/ubm_gmm/scores/nonorm/dev/Dcoetzee.txt' already exists.
+Score file '/home/dingz/exp5/output/ubm_gmm/scores/nonorm/dev/polerizer.txt' already exists.
+----- computing scores for group 'eval' -----
+computing A scores
+- Scoring: concatenating score files for group 'dev'
+- Scoring: concatenating score files for group 'eval'

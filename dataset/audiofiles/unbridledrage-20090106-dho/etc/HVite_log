@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0349.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IN SUCH A TUMBLING OF VALUES WAS NO TIME TO SELL silence  ==  [374 frames] -58.8516 [Ac=-22010.5 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0350.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence STAND OFF BUTCHER AND BAKER AND ALL THE REST silence  ==  [336 frames] -58.1286 [Ac=-19531.2 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0351.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MATTHEWSON WHO'S THIS BOOKKEEPER ROGERS silence  ==  [361 frames] -56.8262 [Ac=-20514.2 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0352.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence NOW JUST WHAT DO YOU WANT TO KNOW silence  ==  [249 frames] -57.7613 [Ac=-14382.6 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0353.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence I WANT TO KNOW HOW ALL THIS IS POSSIBLE silence  ==  [261 frames] -56.9023 [Ac=-14851.5 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0354.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence IT'S THAT MUCH JUNK silence  ==  [186 frames] -55.4089 [Ac=-10306.1 LM=0.0] (Act=6.0)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0355.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THERE WAS PROPER DIVISION OF LABOR IN THE WORK THEY INDIVIDUALLY PERFORMED silence  ==  [537 frames] -58.2552 [Ac=-31283.0 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0356.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HE LOVED TO PLAY CHINESE LOTTERY silence  ==  [249 frames] -59.0605 [Ac=-14706.1 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0357.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE LAW OF CLUB AND FANG silence  ==  [274 frames] -56.6871 [Ac=-15532.3 LM=0.0] (Act=7.5)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-dho/mfc/b0358.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE TEMPERATURE DROPPED TO FIFTY BELOW ZERO AND REMAINED THERE THE WHOLE TRIP silence  ==  [436 frames] -61.0800 [Ac=-26630.9 LM=0.0] (Act=10.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

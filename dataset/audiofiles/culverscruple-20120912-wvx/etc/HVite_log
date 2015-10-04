@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/YdbkZtwvKa/words.mlf -i /tmp/YdbkZtwvKa/aligned.out -S /tmp/YdbkZtwvKa/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0043.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END IT SEEMED NEARER TO HIM SINCE HE HAD SEEN AND TALKED WITH GREGSON SENT-END  ==  [636 frames] -55.6898 [Ac=-35418.7 LM=0.0] (Act=15.8)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0044.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END HER OWN BETRAYAL OF HERSELF WAS LIKE TONIC TO PHILIP SENT-END  ==  [486 frames] -55.0785 [Ac=-26768.2 LM=0.0] (Act=19.0)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0045.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END HE MOVED AWAY AS QUIETLY AS HE HAD COME SENT-END  ==  [448 frames] -53.6657 [Ac=-24042.3 LM=0.0] (Act=14.2)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0046.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE GIRL FACED HIM HER EYES SHINING WITH SUDDEN FEAR SENT-END  ==  [511 frames] -54.8440 [Ac=-28025.3 LM=0.0] (Act=14.2)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0047.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END CLOSE BESIDE HIM GLEAMED THE WHITE FANGS OF THE WOLF-DOG SENT-END  ==  [473 frames] -54.6812 [Ac=-25864.2 LM=0.0] (Act=17.1)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0048.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE LOOKED AT THE HANDKERCHIEF MORE CLOSELY SENT-END  ==  [473 frames] -53.9465 [Ac=-25516.7 LM=0.0] (Act=13.5)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0049.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END GREGSON WAS ASLEEP WHEN HE RE-ENTERED THE CABIN SENT-END  ==  [436 frames] -54.2317 [Ac=-23645.0 LM=0.0] (Act=15.9)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0050.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END IN SPITE OF THEIR ABSURDITY THE WORDS AFFECTED PHILIP CURIOUSLY SENT-END  ==  [573 frames] -55.1003 [Ac=-31572.4 LM=0.0] (Act=18.3)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0051.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THE LACE WAS OF A DELICATE IVORY COLOR FAINTLY TINTED WITH YELLOW SENT-END  ==  [573 frames] -55.3762 [Ac=-31730.5 LM=0.0] (Act=19.4)
+Aligning File: /tmp/YdbkZtwvKa/culverscruple-20120912-wvx/a0052.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END IT WAS A CURIOUS COINCIDENCE SENT-END  ==  [373 frames] -53.3668 [Ac=-19905.8 LM=0.0] (Act=14.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

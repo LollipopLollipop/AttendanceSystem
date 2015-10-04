@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0094.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE HAD BARELY ENTERED THIS WHEN HE SAW THE GLOW OF A FIRE silence  ==  [548 frames] -51.5890 [Ac=-28270.8 LM=0.0] (Act=12.7)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0095.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A BIG CANVAS TENT WAS THE FIRST THING TO COME WITHIN HIS VISION silence  ==  [673 frames] -50.4286 [Ac=-33938.5 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0096.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence PERHAPS SHE HAD ALREADY MET HER FATE A LITTLE DEEPER IN THE FOREST silence  ==  [686 frames] -49.7195 [Ac=-34107.6 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0097.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THEN YOU CAN ARRANGE YOURSELF COMFORTABLY AMONG THESE ROBES IN THE BOW silence  ==  [661 frames] -49.3754 [Ac=-32637.1 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0098.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence SHALL I CARRY YOU silence  ==  [373 frames] -45.4940 [Ac=-16969.3 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0099.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence A MADDENING JOY POUNDED IN HIS BRAIN silence  ==  [561 frames] -48.3851 [Ac=-27144.0 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0100.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence YOU MUST SLEEP HE URGED silence  ==  [511 frames] -44.1773 [Ac=-22574.6 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0101.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU YOU WOULD NOT KEEP THE TRUTH FROM ME silence  ==  [573 frames] -47.2447 [Ac=-27071.2 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0102.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HE WILL FOLLOW US SOON silence  ==  [461 frames] -45.3199 [Ac=-20892.5 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100203-gat/mfc/a0103.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BUT THERE CAME NO PROMISE FROM THE BOW OF THE CANOE silence  ==  [611 frames] -46.5592 [Ac=-28447.7 LM=0.0] (Act=9.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

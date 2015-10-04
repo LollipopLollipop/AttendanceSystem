@@ -1,0 +1,43 @@
+#!/usr/bin/python
+# Automatically generated on Sun Mar  1 16:18:06 2015
+
+'''Booting interpreter - starts a new one with a proper environment'''
+
+import os
+
+# builds a new path taking into considerating the user settings
+path = os.environ.get("PYTHONPATH", "") + os.pathsep + "/home/dingz/bob.spear-1.1.8/eggs/gridtk-1.2.0-py2.7.egg:/home/dingz/bob.spear-1.1.8/eggs/six-1.9.0-py2.7.egg:/home/dingz/bob.spear-1.1.8:/home/dingz/bob.spear-1.1.8/eggs/xbob.sox-1.1.0-py2.7-linux-x86_64.egg:/home/dingz/bob.spear-1.1.8/eggs/xbob.db.voxforge-0.1.0-py2.7.egg:/home/dingz/bob.spear-1.1.8/eggs/xbob.db.verification.filelist-1.3.5-py2.7.egg:/home/dingz/bob.spear-1.1.8/eggs/facereclib-1.2.3-py2.7.egg:/home/dingz/bob.spear-1.1.8/eggs/xbob.db.verification.utils-1.0.1-py2.7.egg:/home/dingz/bob.spear-1.1.8/eggs/xbob.db.atnt-1.1.2-py2.7.egg"
+os.environ['PYTHONPATH'] = path.lstrip(os.pathsep) #in case PYTHONPATH is empty
+
+# re-writes a startup file for Python respecting user settings
+user_profile = os.environ.get("PYTHONSTARTUP", None)
+if user_profile and os.path.exists(user_profile):
+  with open(user_profile, 'r') as f: user_profile_contents = f.read()
+else:
+  user_profile_contents = ''
+
+def encode(s):
+  import sys
+  if sys.version_info[0] >= 3:
+    return s.encode('UTF-8')
+  else:
+    return s
+
+import tempfile
+profile = tempfile.NamedTemporaryFile()
+if user_profile_contents:
+  profile.write(encode('\n\n'))
+  profile.write(encode(user_profile_contents))
+  profile.write(encode('\n'))
+profile.write(encode('import pkg_resources #fixes namespace import\n\nimport os\nos.unlink("%s")\n' % profile.name))
+if user_profile:
+  profile.write(encode('os.environ["PYTHONSTARTUP"] = "%s"\n' % user_profile))
+profile.flush() #makes sure contents are written to the temp file
+
+# overwrites PYTHONSTARTUP for the following process bootstrap
+os.environ['PYTHONSTARTUP'] = profile.name
+#print("Set temporary profile name to `%s'" % (profile.name,))
+
+# this will start a new Python process, that will erase the temp profile
+import sys
+os.execvp("/usr/bin/python", ["/usr/bin/python"] + sys.argv[1:])
